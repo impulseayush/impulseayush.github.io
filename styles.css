@@ -17,6 +17,7 @@ main {
 
 section.photo-gallery {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -27,11 +28,27 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.photo {
+    width: 100%;
+    max-width: 600px;
     margin: 10px;
 }
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section {
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
